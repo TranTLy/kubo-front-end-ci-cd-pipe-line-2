@@ -1,0 +1,46 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.card {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  border-radius: 5px;
+}
+.bordered {
+  box-shadow: none;
+  border: 1px solid #e0e1e1;
+  transition: transform 2s ease-out;
+  text-align: center;
+
+  h6 {
+    color: black;
+  }
+  .btn-card__detail,
+  .btn-card__bookticket {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid $sub-main-color;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    display: none;
+    top: 0;
+    left: 20%;
+  }
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px 1px rgba(39, 39, 39, 0.1);
+    border-radius: 0.1875rem;
+    transition: transform 2s ease-out;
+    .btn-card__detail {
+      display: block;
+      background-image: url(http://lottecinemavn.com/LCHS/Image/MAin/bg_mainMask1.png);
+      top: 30%;
+    }
+    .btn-card__bookticket {
+      display: block;
+      background-image: url(http://lottecinemavn.com/LCHS/Image/MAin/bg_mainMask1.png);
+      top: 50%;
+    }
+  }
+}

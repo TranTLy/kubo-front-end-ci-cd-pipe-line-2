@@ -1,0 +1,69 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+@font-face {
+  font-family: "sf_pro_textregular";
+  src: url("../../../assets/font/sf-pro-text-regular-webfont.woff2")
+      format("woff2"),
+    url("../../../assets/font/sf-pro-text-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family: "sf_pro_textregular", sans-serif;
+$sub-main-color: #c20a0a;
+$main-color: #6b6b6b;
+$background-color: #ffffff;
+$background-image: linear-gradient(to top, #9b1b1b, #c20a0a) !important;
+$box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+$width-menu-admin: 160px;
+$height-menu-right-admin: 40px;
+$w-2: 200px;
+$footer-height: 163px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: $font-family !important;
+	font-size: 16px !important;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: $main-color !important;
+	background-color: $background-color;
+	// min-height: 100vh !important;
+}
+#root {
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+i:hover {
+  color: white;
+}
+.fa-search:hover {
+  color: #6b6b6b;
+}
+
+.fa-user-alt:hover,
+.fa-sign-in-alt:hover,
+.fa-paper-plane:hover,
+.fa-clipboard-check:hover {
+  color: black;
+}
+a {
+  color: #ffffff;
+}
+
+.admin {
+  display: flex;
+}
+
+.w-2 {
+  width: $w-2;
+}

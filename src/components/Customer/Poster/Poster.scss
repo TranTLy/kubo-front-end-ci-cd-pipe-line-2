@@ -1,0 +1,38 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.poster {
+  padding-top: 30px;
+  background-color: rgba(32, 24, 24, 1);
+  padding-bottom: 30px;
+
+  .content-poster {
+    // padding-left: 30px;
+    // padding-right: 30px;
+
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+  }
+
+  .carousel-control-next {
+    color: #fff;
+
+    .carousel-control-next-icon {
+      background-image: url(../../../assets/img/arrow-next-icon.svg);
+      width: 50px;
+      height: 50px;
+      opacity: 0.5;
+      background-color: aliceblue;
+      border-radius: 50%;
+    }
+  }
+
+  .carousel-control-prev {
+    .carousel-control-prev-icon {
+      background-image: url(../../../assets/img/arrow-prev-icon.svg);
+      width: 50px;
+      height: 50px;
+      opacity: 0.5;
+      background-color: aliceblue;
+      border-radius: 50%;
+    }
+  }
+}

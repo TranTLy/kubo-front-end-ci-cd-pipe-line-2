@@ -1,0 +1,88 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.card-item-detail-wrap {
+	display: flex;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	margin: 10px 7px;
+
+	.img {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		img {
+			transition: transform 2s ease-out;
+			width: 228px;
+			height: 335px;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+		.rate {
+			margin-top: -32px;
+			margin-left: 20px;
+			width: 70px;
+			background-color: rgba(252, 252, 252, 0.9);
+			padding: 10px;
+			border-radius: 100px;
+			text-align: center;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+
+			i {
+				color: #ffd355;
+			}
+		}
+	}
+	.movie-infor {
+		flex: 1.5;
+		display: flex;
+		flex-direction: column;
+		margin-left: 15px;
+		max-width: 417px;
+		min-width: 270px;
+
+
+		div {
+			padding-top: 10px;
+			.lable {
+				font-weight: bold;
+			}
+		}
+		.title {
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				color: $main-color;
+				font-size: 1.5em;
+				&:hover {
+					color: $sub-main-color;
+				}
+			}
+		}
+		.duration {
+			color: $sub-main-color;
+			font-size: 0.8em;
+		}
+		.director {
+			a {
+				text-decoration: none;
+				color: $sub-main-color;
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+		.price {
+			.price__detail {
+				color: $sub-main-color;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.card-item-detail-wrap {
+		.movie-infor {
+		}
+	}
+}

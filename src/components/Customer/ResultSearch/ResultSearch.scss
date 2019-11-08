@@ -1,0 +1,25 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.title-result-search {
+	text-align: center;
+	color: brown;
+	h4 {
+		color: #fff;
+	}
+}
+.result-search-film {
+	display: flex !important;
+	justify-content: center;
+
+	.film {
+		display: flex !important;
+		.card {
+			transition: transform 2s ease-out;
+		}
+		.card:hover {
+			transform: scale(1.1);
+			box-shadow: 0 10px 15px 1px rgba(39, 39, 39, 0.1);
+			border-radius: 0.1875rem;
+		}
+	}
+}

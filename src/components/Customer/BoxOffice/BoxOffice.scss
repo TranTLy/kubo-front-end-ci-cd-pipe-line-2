@@ -1,0 +1,55 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.item-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: black;
+	.time-film {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		span {
+			font-size: 0.8rem;
+		}
+		h6 {
+			font-weight: bold;
+			font-style: italic;
+		}
+	}
+	.info-film {
+		display: flex;
+		flex-direction: row;
+		h6 {
+			font-weight: bold;
+		}
+	}
+}
+.item-box:hover {
+	border-color: black;
+}
+.box-office {
+	display: flex;
+	height: 332px;
+	flex-direction: column;
+	border-color: black;
+	box-shadow: 0 10px 15px 1px rgba(39, 39, 39, 0.1);
+	border-radius: 0.1875rem;
+	.box-office-title {
+		background-color: rgba(33, 30, 30, 0.91);
+		height: 55px;
+		color: #ffffff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.pay-ticket {
+		margin-top: 15px;
+		background-color: rgba(33, 30, 30, 0.91);
+		height: 55px;
+		color: #ffffff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

@@ -1,0 +1,129 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.schedule-wrap {
+	margin-top: 40px;
+	margin-bottom: $footer-height;
+	.search {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+		justify-content: center;
+		div {
+			margin-right: 30px;
+		}
+		.search-branch {
+			margin-bottom: 10px;
+			select {
+				margin-left: 20px;
+				option {
+				}
+			}
+		}
+		.search-film{
+			margin-bottom: 10px;
+			.lable-search {
+				margin-right: 57px;
+			}
+		}
+		.search-date {
+			display: flex;
+			color: #000;
+			.lable-search {
+				margin-right: 31px;
+			}
+			input {
+				margin-left: 5px;
+				margin-right: 5px;
+				padding-left: 10px;
+			}
+		}
+		.btn-search-schedule{
+			margin-left: 10px;
+			background-color: #c20a0a;
+			border: none;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3)
+		}
+	}
+	.sum-schedule{
+		margin: 20px;
+		text-align: right;
+		color: rgb(247, 192, 11);	
+	}
+	.list-schedules {
+		display: flex;
+		flex-direction: column;
+		.schedule {
+			display: flex;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+			margin-bottom: 10px;
+			.detail-schedule {
+				padding-bottom: 20px;
+				.title {
+					text-align: right;
+					z-index: -1;
+					display: flex;
+					align-items: center;
+					div {
+						text-align: center;
+						margin: 10px;
+						padding: 10px 20px;
+						font-weight: bold;
+						width: 200px;
+						box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+						// transform: rotate(-30deg);
+
+						i {
+							color: $sub-main-color;
+							font-size: 1.6em;
+						}
+					}
+				}
+				div {
+					margin-left: 20%;
+					.lable {
+						font-weight: bold;
+					}
+				}
+				.btn-book-ticket {
+					text-align: center;
+					margin-top: 40px;
+					.btn {
+						background-color: $sub-main-color;
+						border: none;
+						box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+						&:hover {
+							box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+						}
+						a {
+							padding: 10px 20px;
+							text-decoration: none;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.schedule-wrap {
+		// .search {
+		// 	flex-direction: column;
+		// 	.select-date {
+		// 		flex-direction: column;
+		// 		height: 20px;
+		// 	}
+		// }
+		.list-schedules {
+			.schedule {
+				flex-direction: column;
+				.detail-schedule {
+					.btn-book-ticket {
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+}

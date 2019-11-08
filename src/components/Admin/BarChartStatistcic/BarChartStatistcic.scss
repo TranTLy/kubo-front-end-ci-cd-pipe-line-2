@@ -1,0 +1,10 @@
+@import '../../../assets//stylesheet//default.scss';
+
+.bar-chart-statistic {
+	max-width: 200px;
+	height: 400px;
+	&__chart {
+		// width: 200px;
+		// height: 400px;
+	}
+}

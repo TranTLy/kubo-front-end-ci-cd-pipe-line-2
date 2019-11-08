@@ -1,0 +1,68 @@
+@import '../../../assets//stylesheet//default.scss';
+
+.admin {
+	&__content {
+		width: 100%;
+		margin-top: $height-menu-right-admin;
+		margin-left: 180px;
+		.admin {
+			&__head {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				height: 50px;
+				margin-top: 10px;
+				&--find {
+					margin-left: 20px;
+					padding: 5px 20px;
+					border: 1px solid $sub-main-color;
+					border-radius: 20px;
+					input {
+						border: none;
+						&:focus {
+							outline: none;
+						}
+					}
+					i {
+						color: $sub-main-color;
+					}
+				}
+				&--add {
+					margin-right: 20px;
+					.btn {
+						border: 2px solid $sub-main-color;
+						border-radius: 5px;
+						color: $sub-main-color;
+						&:hover {
+							background-color: $sub-main-color;
+							color: #fff;
+							font-weight: bold;
+						}
+						&:focus {
+							outline: none;
+						}
+					}
+				}
+			}
+			&__detail {
+				margin-top: 20px;
+				margin-right: 10px;
+				table {
+					tbody {
+						.admin__detail--single {
+							.actions {
+								i {
+									margin: auto 10px;
+									&:hover {
+										color: $sub-main-color;
+										cursor: pointer;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

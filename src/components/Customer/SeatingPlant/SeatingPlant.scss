@@ -1,0 +1,44 @@
+@import '../../../assets//stylesheet/default.scss';
+
+.seating-plant-wrap {
+	.seating-plant__sum-seat-chose {
+		color: rgb(250, 179, 26);
+		font-style: italic;
+		font-size: 0.8em;
+		margin: 10px 10px;
+		text-align: right;
+	}
+	.seating-plant {
+		// display: block;
+		text-align: center;
+		width: 100%;
+		.seat-wrap {
+			width: 8%;
+			margin: 10px 1%;
+			display: inline-table;
+			border-radius: 5px;
+			font-weight: bold;
+			&:hover {
+				cursor: pointer;
+			}
+			&--available {
+				border: 2px solid $sub-main-color;
+				color: $sub-main-color;
+				&:hover {
+					background-color: $sub-main-color;
+					color: #fff;
+				}
+			}
+			border: 1px solid $sub-main-color;
+			&--unavailable {
+				color: #fff;
+				background-color: rgb(143, 143, 142);
+				border: none;
+			}
+			&.seat-choosen {
+				background-color: $sub-main-color;
+				color: #fff;
+			}
+		}
+	}
+}

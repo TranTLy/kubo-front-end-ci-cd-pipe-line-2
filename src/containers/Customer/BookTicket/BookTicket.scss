@@ -1,0 +1,153 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.book-ticket-not-found{
+	text-align: center;
+	margin-top: 50px;
+}
+.book-ticket-wrap {
+	margin-top: 40px;
+	display: flex;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	margin-bottom: 200px;
+
+	.schedule {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10px;
+		.detail-schedule {
+			padding-bottom: 20px;
+			.title {
+				text-align: right;
+				z-index: -1;
+				display: flex;
+				align-items: center;
+				div {
+					text-align: center;
+					margin: 10px;
+					padding: 10px 20px;
+					font-weight: bold;
+					width: 200px;
+					box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+					// transform: rotate(-30deg);
+
+					i {
+						color: $sub-main-color;
+						font-size: 1.6em;
+					}
+				}
+			}
+			div {
+				margin-left: 20%;
+				.lable {
+					font-weight: bold;
+				}
+			}
+			.btn-book-ticket {
+				text-align: center;
+				margin-top: 40px;
+				.btn {
+					background-color: $sub-main-color;
+					border: none;
+					box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+					&:hover {
+						box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+					}
+					a {
+						padding: 10px 20px;
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.book-ticket-option {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		.book-ticket-success-wrap{
+			margin: auto;
+			text-align: center;
+			.book-ticket-success{
+				&__title{
+					color: $sub-main-color;
+					font-size: 25px;
+					margin: 10px auto;
+				}
+			}
+		}
+		.title {
+			text-align: center;
+			margin: 20px;
+			span {
+				font-weight: bold;
+				font-size: 1.5em;
+				text-transform: uppercase;
+			}
+		}
+		.option {
+			.option__detail {
+				.detail {
+					&__lable {
+						color: rgb(250, 179, 26);
+						font-style: italic;
+						font-size: 0.8em;
+						margin: 10px 10px;
+						text-align: center;
+					}
+					&__payment {
+						margin: 10px 20px;
+						input {
+							margin: 5px 10px;
+						}
+					}
+				}
+				&.-number-ticket {
+					text-align: center;
+					margin-top: 20px;
+					input{
+						text-align: center;
+					}
+				}
+			}
+		}
+		.btns {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20px;
+			button {
+				font-weight: bold;
+				border-radius: 10px;
+				border: none;
+				padding: 5px 20px;
+				margin: 10px;
+				border: 2px solid $sub-main-color;
+				background-color: $sub-main-color;
+				color: #fff;
+				width: 150px;
+				outline: none;
+				&:hover {
+					box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.171);
+				}
+				#btn--back {
+					margin-left: 5%;
+				}
+				#btn--next {
+					margin-right: 5%;
+				}
+			}
+		}
+		#message{
+			color: #fab31a;
+			font-style: italic;
+			font-size: 0.8em;
+			margin: 10px 10px;
+			text-align: right;
+			height: 6px;;
+		}
+		.bill {
+			margin: auto;
+		}
+	}
+}

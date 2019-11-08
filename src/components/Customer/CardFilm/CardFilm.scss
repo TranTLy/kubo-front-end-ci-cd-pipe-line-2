@@ -1,0 +1,19 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.home-film {
+  .section-movie {
+    display: flex !important;
+    .card-header {
+      a {
+        font-size: 1.5rem;
+        color: #6b6b6b;
+        padding-left: 15px;
+        font-weight: 450;
+        background-color: transparent;
+      }
+    }
+    .card-body {
+      display: flex !important;
+    }
+  }
+}

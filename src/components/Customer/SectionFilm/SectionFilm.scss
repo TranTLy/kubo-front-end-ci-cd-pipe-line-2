@@ -1,0 +1,36 @@
+$sub-main-color: #c20a0a;
+.SectionFilm {
+  overflow-x: hidden;
+  // background: #eaeaea url(./assets/img/backgound.png) fixed top center;
+  background-size: cover;
+  color: $sub-main-color;
+  padding-bottom: 0;
+  .content {
+    .title-type-film {
+      background-color: #e71a0f;
+      width: 100%;
+      text-align: center;
+      h4 {
+        margin-top: 5px;
+        color: #fff;
+      }
+    }
+    hr {
+      background-color: #e71a0f;
+    }
+    .section {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      a {
+        color: #c20a0a;
+        transition: transform 2s ease-out;
+        i:hover {
+          color: #e45430;
+          cursor: pointer;
+          
+        }
+      }
+    }
+  }
+}

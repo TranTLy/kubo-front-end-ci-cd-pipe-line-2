@@ -1,0 +1,47 @@
+@import "../../../assets/stylesheet/default.scss";
+
+.f-signin {
+  background-color: rgba(217, 207, 159, 0.4);
+  box-shadow: 0 1px 10px 1px rgba(23, 19, 29, 0.81);
+  border-radius: 0.1875rem;
+  z-index: 10;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+
+  .title-login-signin {
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    h4 {
+      color: #ffffff;
+      padding-top: 12px;
+      text-decoration: none;
+    }
+
+    hr {
+      transform: rotate(90deg);
+      margin-top: 30px !important;
+      width: 53px;
+      color: #ffffff;
+    }
+  }
+
+  label {
+    padding-left: 30px;
+  }
+
+  .forgot-password {
+    font-size: 14px;
+  }
+
+  .check-input {
+    color: #fff;
+    font-style: italic;
+  }
+}

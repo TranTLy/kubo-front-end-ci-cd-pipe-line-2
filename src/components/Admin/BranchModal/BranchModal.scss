@@ -1,0 +1,41 @@
+@import '../../../assets/stylesheet/default.scss';
+
+.branch-modal {
+	&__title {
+		text-align: center;
+		margin: 20px auto;
+		color: $sub-main-color;
+	}
+	&__table {
+		.table {
+			width: 560px;
+			margin: auto 20px;
+			.lable {
+			}
+			td {
+				input {
+					width: 50%;
+				}
+			}
+		}
+	}
+	&__btns {
+		text-align: center;
+		margin: 20px auto;
+		right: 10px;
+		bottom: 10px;
+		position: absolute;
+		.btn {
+			border: 2px solid $sub-main-color;
+			padding: 5px 10px;
+			margin: auto 20px;
+			// font-weight: bold;
+			background-color: $sub-main-color;
+			color: #fff !important;
+			&:hover {
+				cursor: pointer;
+				box-shadow: $box-shadow;
+			}
+		}
+	}
+}

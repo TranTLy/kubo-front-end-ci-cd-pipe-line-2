@@ -1,0 +1,15 @@
+.comment-film {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+}
+.backgound {
+  background-color: #dedede;
+}
+i:hover {
+  color: yellow;
+}
