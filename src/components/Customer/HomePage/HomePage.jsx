@@ -76,16 +76,18 @@ class HomePage extends Component {
         {this.state.loading ? (
           <Loading />
         ) : (
-            <div>
-              <Poster />
-              <div className="content-home">
-                <ActiveMovie movie={mostMovie} title="Phim nổi bật nhất" />
-                <NewMovie movie={newMovie} title="Phim sắp chiếu" />
-                <MostMovie movie={oldMovie} title="Phim đang chiếu" />
+            <>
+              <div>
+                <Poster />
+                <div className="content-home">
+                  <ActiveMovie movie={mostMovie} title="Phim nổi bật nhất" />
+                  <NewMovie movie={newMovie} title="Phim sắp chiếu" />
+                  <MostMovie movie={oldMovie} title="Phim đang chiếu" />
+                </div>
               </div>
-            </div>
+              <Footer className="mt-0" />
+            </>
           )}
-        <Footer className="mt-0" />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './HomeAdmin.scss';
-import { MenuPanel } from '../../../components';
+import MenuPanel from '../../../components/Admin/MenuPanel/MenuPanel';
 import Branch from '../Branch/Branch';
 import CinemaAdmin from '../CinemaAdmin/CinemaAdmin';
 import ScheduleAdmin from '../ScheduleAdmin/ScheduleAdmin';

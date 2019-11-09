@@ -1,0 +1,2452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Container
+        container-fluid="true"
+        tag="div"
+      >
+        <Row
+          className="content-footer pr-0"
+          tag="div"
+        >
+          <Col
+            className="section-footer  mb-0"
+            lg={5}
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xl={5}
+          >
+            <div
+              className="Dieu-khoan-chinh-sach"
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  ĐIỀU KHOẢN CHÍNH SÁCH
+                </span>
+              </div>
+              <div
+                className="footer-item"
+              >
+                <a
+                  href="#"
+                >
+                  KHÁCH HÀNG THƯỜNG XUYÊN
+                </a>
+                <br />
+                <a
+                  href="#"
+                >
+                  CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                </a>
+                <br />
+              </div>
+            </div>
+            <div
+              className="doi-tac"
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  LIÊN HỆ
+                </span>
+              </div>
+              <div
+                className="footer-item"
+              >
+                <a
+                  href="#"
+                >
+                  LIÊN HỆ QUẢNG CÁO
+                </a>
+                <br />
+                <a
+                  href="#"
+                >
+                  THÔNG TIN KUBO CINEMA
+                </a>
+                <br />
+              </div>
+            </div>
+          </Col>
+          <Col
+            className="social section-footer-social  mb-0"
+            lg="auto"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xl="auto"
+          >
+            <div
+              className="footer-title"
+            >
+              <span>
+                KẾT NỐI VỚI KUBO
+              </span>
+            </div>
+            <div
+              className="footer-item"
+            >
+              <div
+                className="footer-social"
+              >
+                <i
+                  className="fab fa-facebook fa-2x"
+                />
+                <i
+                  className="fab fa-youtube-square fa-2x"
+                />
+                <i
+                  className="fab fa-twitter-square fa-2x"
+                />
+                <i
+                  className="fab fa-instagram fa-2x"
+                />
+              </div>
+              <hr />
+            </div>
+          </Col>
+          <Col
+            className="logo section-footer-social mb-0 pr-0"
+            lg={4}
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xl={4}
+          >
+            <div
+              className="footer-title"
+            >
+              <span>
+                KUBO
+              </span>
+            </div>
+            <div
+              className="logo-CHPlay"
+            >
+              <img
+                alt="Lo go CH play"
+                src="logoCHPlay.png"
+              />
+              <img
+                alt="Lo go Google Play"
+                src="logoAppstore.png"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row
+          className="KuboVN"
+          tag="div"
+        >
+          <div
+            className="footer-kubo-VN"
+          >
+            <span>
+              ©  2019 Kubo Viet Nam, All right reserved
+            </span>
+          </div>
+        </Row>
+      </Container>,
+      "className": "footer",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Row
+            className="content-footer pr-0"
+            tag="div"
+          >
+            <Col
+              className="section-footer  mb-0"
+              lg={5}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl={5}
+            >
+              <div
+                className="Dieu-khoan-chinh-sach"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    ĐIỀU KHOẢN CHÍNH SÁCH
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <a
+                    href="#"
+                  >
+                    KHÁCH HÀNG THƯỜNG XUYÊN
+                  </a>
+                  <br />
+                  <a
+                    href="#"
+                  >
+                    CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                  </a>
+                  <br />
+                </div>
+              </div>
+              <div
+                className="doi-tac"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    LIÊN HỆ
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <a
+                    href="#"
+                  >
+                    LIÊN HỆ QUẢNG CÁO
+                  </a>
+                  <br />
+                  <a
+                    href="#"
+                  >
+                    THÔNG TIN KUBO CINEMA
+                  </a>
+                  <br />
+                </div>
+              </div>
+            </Col>
+            <Col
+              className="social section-footer-social  mb-0"
+              lg="auto"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl="auto"
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  KẾT NỐI VỚI KUBO
+                </span>
+              </div>
+              <div
+                className="footer-item"
+              >
+                <div
+                  className="footer-social"
+                >
+                  <i
+                    className="fab fa-facebook fa-2x"
+                  />
+                  <i
+                    className="fab fa-youtube-square fa-2x"
+                  />
+                  <i
+                    className="fab fa-twitter-square fa-2x"
+                  />
+                  <i
+                    className="fab fa-instagram fa-2x"
+                  />
+                </div>
+                <hr />
+              </div>
+            </Col>
+            <Col
+              className="logo section-footer-social mb-0 pr-0"
+              lg={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl={4}
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  KUBO
+                </span>
+              </div>
+              <div
+                className="logo-CHPlay"
+              >
+                <img
+                  alt="Lo go CH play"
+                  src="logoCHPlay.png"
+                />
+                <img
+                  alt="Lo go Google Play"
+                  src="logoAppstore.png"
+                />
+              </div>
+            </Col>
+          </Row>,
+          <Row
+            className="KuboVN"
+            tag="div"
+          >
+            <div
+              className="footer-kubo-VN"
+            >
+              <span>
+                ©  2019 Kubo Viet Nam, All right reserved
+              </span>
+            </div>
+          </Row>,
+        ],
+        "container-fluid": "true",
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Col
+                className="section-footer  mb-0"
+                lg={5}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl={5}
+              >
+                <div
+                  className="Dieu-khoan-chinh-sach"
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      ĐIỀU KHOẢN CHÍNH SÁCH
+                    </span>
+                  </div>
+                  <div
+                    className="footer-item"
+                  >
+                    <a
+                      href="#"
+                    >
+                      KHÁCH HÀNG THƯỜNG XUYÊN
+                    </a>
+                    <br />
+                    <a
+                      href="#"
+                    >
+                      CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                    </a>
+                    <br />
+                  </div>
+                </div>
+                <div
+                  className="doi-tac"
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      LIÊN HỆ
+                    </span>
+                  </div>
+                  <div
+                    className="footer-item"
+                  >
+                    <a
+                      href="#"
+                    >
+                      LIÊN HỆ QUẢNG CÁO
+                    </a>
+                    <br />
+                    <a
+                      href="#"
+                    >
+                      THÔNG TIN KUBO CINEMA
+                    </a>
+                    <br />
+                  </div>
+                </div>
+              </Col>,
+              <Col
+                className="social section-footer-social  mb-0"
+                lg="auto"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl="auto"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    KẾT NỐI VỚI KUBO
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <div
+                    className="footer-social"
+                  >
+                    <i
+                      className="fab fa-facebook fa-2x"
+                    />
+                    <i
+                      className="fab fa-youtube-square fa-2x"
+                    />
+                    <i
+                      className="fab fa-twitter-square fa-2x"
+                    />
+                    <i
+                      className="fab fa-instagram fa-2x"
+                    />
+                  </div>
+                  <hr />
+                </div>
+              </Col>,
+              <Col
+                className="logo section-footer-social mb-0 pr-0"
+                lg={4}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl={4}
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    KUBO
+                  </span>
+                </div>
+                <div
+                  className="logo-CHPlay"
+                >
+                  <img
+                    alt="Lo go CH play"
+                    src="logoCHPlay.png"
+                  />
+                  <img
+                    alt="Lo go Google Play"
+                    src="logoAppstore.png"
+                  />
+                </div>
+              </Col>,
+            ],
+            "className": "content-footer pr-0",
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="Dieu-khoan-chinh-sach"
+                  >
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        ĐIỀU KHOẢN CHÍNH SÁCH
+                      </span>
+                    </div>
+                    <div
+                      className="footer-item"
+                    >
+                      <a
+                        href="#"
+                      >
+                        KHÁCH HÀNG THƯỜNG XUYÊN
+                      </a>
+                      <br />
+                      <a
+                        href="#"
+                      >
+                        CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                      </a>
+                      <br />
+                    </div>
+                  </div>,
+                  <div
+                    className="doi-tac"
+                  >
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        LIÊN HỆ
+                      </span>
+                    </div>
+                    <div
+                      className="footer-item"
+                    >
+                      <a
+                        href="#"
+                      >
+                        LIÊN HỆ QUẢNG CÁO
+                      </a>
+                      <br />
+                      <a
+                        href="#"
+                      >
+                        THÔNG TIN KUBO CINEMA
+                      </a>
+                      <br />
+                    </div>
+                  </div>,
+                ],
+                "className": "section-footer  mb-0",
+                "lg": 5,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "xl": 5,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="footer-title"
+                      >
+                        <span>
+                          ĐIỀU KHOẢN CHÍNH SÁCH
+                        </span>
+                      </div>,
+                      <div
+                        className="footer-item"
+                      >
+                        <a
+                          href="#"
+                        >
+                          KHÁCH HÀNG THƯỜNG XUYÊN
+                        </a>
+                        <br />
+                        <a
+                          href="#"
+                        >
+                          CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                        </a>
+                        <br />
+                      </div>,
+                    ],
+                    "className": "Dieu-khoan-chinh-sach",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          ĐIỀU KHOẢN CHÍNH SÁCH
+                        </span>,
+                        "className": "footer-title",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "ĐIỀU KHOẢN CHÍNH SÁCH",
+                        },
+                        "ref": null,
+                        "rendered": "ĐIỀU KHOẢN CHÍNH SÁCH",
+                        "type": "span",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <a
+                            href="#"
+                          >
+                            KHÁCH HÀNG THƯỜNG XUYÊN
+                          </a>,
+                          <br />,
+                          <a
+                            href="#"
+                          >
+                            CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                          </a>,
+                          <br />,
+                        ],
+                        "className": "footer-item",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "KHÁCH HÀNG THƯỜNG XUYÊN",
+                            "href": "#",
+                          },
+                          "ref": null,
+                          "rendered": "KHÁCH HÀNG THƯỜNG XUYÊN",
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "CHÍNH SÁCH QUYỀN RIÊNG TƯ",
+                            "href": "#",
+                          },
+                          "ref": null,
+                          "rendered": "CHÍNH SÁCH QUYỀN RIÊNG TƯ",
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="footer-title"
+                      >
+                        <span>
+                          LIÊN HỆ
+                        </span>
+                      </div>,
+                      <div
+                        className="footer-item"
+                      >
+                        <a
+                          href="#"
+                        >
+                          LIÊN HỆ QUẢNG CÁO
+                        </a>
+                        <br />
+                        <a
+                          href="#"
+                        >
+                          THÔNG TIN KUBO CINEMA
+                        </a>
+                        <br />
+                      </div>,
+                    ],
+                    "className": "doi-tac",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          LIÊN HỆ
+                        </span>,
+                        "className": "footer-title",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "LIÊN HỆ",
+                        },
+                        "ref": null,
+                        "rendered": "LIÊN HỆ",
+                        "type": "span",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <a
+                            href="#"
+                          >
+                            LIÊN HỆ QUẢNG CÁO
+                          </a>,
+                          <br />,
+                          <a
+                            href="#"
+                          >
+                            THÔNG TIN KUBO CINEMA
+                          </a>,
+                          <br />,
+                        ],
+                        "className": "footer-item",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "LIÊN HỆ QUẢNG CÁO",
+                            "href": "#",
+                          },
+                          "ref": null,
+                          "rendered": "LIÊN HỆ QUẢNG CÁO",
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "THÔNG TIN KUBO CINEMA",
+                            "href": "#",
+                          },
+                          "ref": null,
+                          "rendered": "THÔNG TIN KUBO CINEMA",
+                          "type": "a",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      KẾT NỐI VỚI KUBO
+                    </span>
+                  </div>,
+                  <div
+                    className="footer-item"
+                  >
+                    <div
+                      className="footer-social"
+                    >
+                      <i
+                        className="fab fa-facebook fa-2x"
+                      />
+                      <i
+                        className="fab fa-youtube-square fa-2x"
+                      />
+                      <i
+                        className="fab fa-twitter-square fa-2x"
+                      />
+                      <i
+                        className="fab fa-instagram fa-2x"
+                      />
+                    </div>
+                    <hr />
+                  </div>,
+                ],
+                "className": "social section-footer-social  mb-0",
+                "lg": "auto",
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "xl": "auto",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span>
+                      KẾT NỐI VỚI KUBO
+                    </span>,
+                    "className": "footer-title",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "KẾT NỐI VỚI KUBO",
+                    },
+                    "ref": null,
+                    "rendered": "KẾT NỐI VỚI KUBO",
+                    "type": "span",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="footer-social"
+                      >
+                        <i
+                          className="fab fa-facebook fa-2x"
+                        />
+                        <i
+                          className="fab fa-youtube-square fa-2x"
+                        />
+                        <i
+                          className="fab fa-twitter-square fa-2x"
+                        />
+                        <i
+                          className="fab fa-instagram fa-2x"
+                        />
+                      </div>,
+                      <hr />,
+                    ],
+                    "className": "footer-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            className="fab fa-facebook fa-2x"
+                          />,
+                          <i
+                            className="fab fa-youtube-square fa-2x"
+                          />,
+                          <i
+                            className="fab fa-twitter-square fa-2x"
+                          />,
+                          <i
+                            className="fab fa-instagram fa-2x"
+                          />,
+                        ],
+                        "className": "footer-social",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fab fa-facebook fa-2x",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fab fa-youtube-square fa-2x",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fab fa-twitter-square fa-2x",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fab fa-instagram fa-2x",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "hr",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      KUBO
+                    </span>
+                  </div>,
+                  <div
+                    className="logo-CHPlay"
+                  >
+                    <img
+                      alt="Lo go CH play"
+                      src="logoCHPlay.png"
+                    />
+                    <img
+                      alt="Lo go Google Play"
+                      src="logoAppstore.png"
+                    />
+                  </div>,
+                ],
+                "className": "logo section-footer-social mb-0 pr-0",
+                "lg": 4,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+                "xl": 4,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span>
+                      KUBO
+                    </span>,
+                    "className": "footer-title",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "KUBO",
+                    },
+                    "ref": null,
+                    "rendered": "KUBO",
+                    "type": "span",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="Lo go CH play"
+                        src="logoCHPlay.png"
+                      />,
+                      <img
+                        alt="Lo go Google Play"
+                        src="logoAppstore.png"
+                      />,
+                    ],
+                    "className": "logo-CHPlay",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Lo go CH play",
+                        "src": "logoCHPlay.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Lo go Google Play",
+                        "src": "logoAppstore.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              className="footer-kubo-VN"
+            >
+              <span>
+                ©  2019 Kubo Viet Nam, All right reserved
+              </span>
+            </div>,
+            "className": "KuboVN",
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                ©  2019 Kubo Viet Nam, All right reserved
+              </span>,
+              "className": "footer-kubo-VN",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "©  2019 Kubo Viet Nam, All right reserved",
+              },
+              "ref": null,
+              "rendered": "©  2019 Kubo Viet Nam, All right reserved",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Container
+          container-fluid="true"
+          tag="div"
+        >
+          <Row
+            className="content-footer pr-0"
+            tag="div"
+          >
+            <Col
+              className="section-footer  mb-0"
+              lg={5}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl={5}
+            >
+              <div
+                className="Dieu-khoan-chinh-sach"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    ĐIỀU KHOẢN CHÍNH SÁCH
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <a
+                    href="#"
+                  >
+                    KHÁCH HÀNG THƯỜNG XUYÊN
+                  </a>
+                  <br />
+                  <a
+                    href="#"
+                  >
+                    CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                  </a>
+                  <br />
+                </div>
+              </div>
+              <div
+                className="doi-tac"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    LIÊN HỆ
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <a
+                    href="#"
+                  >
+                    LIÊN HỆ QUẢNG CÁO
+                  </a>
+                  <br />
+                  <a
+                    href="#"
+                  >
+                    THÔNG TIN KUBO CINEMA
+                  </a>
+                  <br />
+                </div>
+              </div>
+            </Col>
+            <Col
+              className="social section-footer-social  mb-0"
+              lg="auto"
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl="auto"
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  KẾT NỐI VỚI KUBO
+                </span>
+              </div>
+              <div
+                className="footer-item"
+              >
+                <div
+                  className="footer-social"
+                >
+                  <i
+                    className="fab fa-facebook fa-2x"
+                  />
+                  <i
+                    className="fab fa-youtube-square fa-2x"
+                  />
+                  <i
+                    className="fab fa-twitter-square fa-2x"
+                  />
+                  <i
+                    className="fab fa-instagram fa-2x"
+                  />
+                </div>
+                <hr />
+              </div>
+            </Col>
+            <Col
+              className="logo section-footer-social mb-0 pr-0"
+              lg={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+              xl={4}
+            >
+              <div
+                className="footer-title"
+              >
+                <span>
+                  KUBO
+                </span>
+              </div>
+              <div
+                className="logo-CHPlay"
+              >
+                <img
+                  alt="Lo go CH play"
+                  src="logoCHPlay.png"
+                />
+                <img
+                  alt="Lo go Google Play"
+                  src="logoAppstore.png"
+                />
+              </div>
+            </Col>
+          </Row>
+          <Row
+            className="KuboVN"
+            tag="div"
+          >
+            <div
+              className="footer-kubo-VN"
+            >
+              <span>
+                ©  2019 Kubo Viet Nam, All right reserved
+              </span>
+            </div>
+          </Row>
+        </Container>,
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Row
+              className="content-footer pr-0"
+              tag="div"
+            >
+              <Col
+                className="section-footer  mb-0"
+                lg={5}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl={5}
+              >
+                <div
+                  className="Dieu-khoan-chinh-sach"
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      ĐIỀU KHOẢN CHÍNH SÁCH
+                    </span>
+                  </div>
+                  <div
+                    className="footer-item"
+                  >
+                    <a
+                      href="#"
+                    >
+                      KHÁCH HÀNG THƯỜNG XUYÊN
+                    </a>
+                    <br />
+                    <a
+                      href="#"
+                    >
+                      CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                    </a>
+                    <br />
+                  </div>
+                </div>
+                <div
+                  className="doi-tac"
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      LIÊN HỆ
+                    </span>
+                  </div>
+                  <div
+                    className="footer-item"
+                  >
+                    <a
+                      href="#"
+                    >
+                      LIÊN HỆ QUẢNG CÁO
+                    </a>
+                    <br />
+                    <a
+                      href="#"
+                    >
+                      THÔNG TIN KUBO CINEMA
+                    </a>
+                    <br />
+                  </div>
+                </div>
+              </Col>
+              <Col
+                className="social section-footer-social  mb-0"
+                lg="auto"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl="auto"
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    KẾT NỐI VỚI KUBO
+                  </span>
+                </div>
+                <div
+                  className="footer-item"
+                >
+                  <div
+                    className="footer-social"
+                  >
+                    <i
+                      className="fab fa-facebook fa-2x"
+                    />
+                    <i
+                      className="fab fa-youtube-square fa-2x"
+                    />
+                    <i
+                      className="fab fa-twitter-square fa-2x"
+                    />
+                    <i
+                      className="fab fa-instagram fa-2x"
+                    />
+                  </div>
+                  <hr />
+                </div>
+              </Col>
+              <Col
+                className="logo section-footer-social mb-0 pr-0"
+                lg={4}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+                xl={4}
+              >
+                <div
+                  className="footer-title"
+                >
+                  <span>
+                    KUBO
+                  </span>
+                </div>
+                <div
+                  className="logo-CHPlay"
+                >
+                  <img
+                    alt="Lo go CH play"
+                    src="logoCHPlay.png"
+                  />
+                  <img
+                    alt="Lo go Google Play"
+                    src="logoAppstore.png"
+                  />
+                </div>
+              </Col>
+            </Row>,
+            <Row
+              className="KuboVN"
+              tag="div"
+            >
+              <div
+                className="footer-kubo-VN"
+              >
+                <span>
+                  ©  2019 Kubo Viet Nam, All right reserved
+                </span>
+              </div>
+            </Row>,
+          ],
+          "container-fluid": "true",
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Col
+                  className="section-footer  mb-0"
+                  lg={5}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                  xl={5}
+                >
+                  <div
+                    className="Dieu-khoan-chinh-sach"
+                  >
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        ĐIỀU KHOẢN CHÍNH SÁCH
+                      </span>
+                    </div>
+                    <div
+                      className="footer-item"
+                    >
+                      <a
+                        href="#"
+                      >
+                        KHÁCH HÀNG THƯỜNG XUYÊN
+                      </a>
+                      <br />
+                      <a
+                        href="#"
+                      >
+                        CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                      </a>
+                      <br />
+                    </div>
+                  </div>
+                  <div
+                    className="doi-tac"
+                  >
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        LIÊN HỆ
+                      </span>
+                    </div>
+                    <div
+                      className="footer-item"
+                    >
+                      <a
+                        href="#"
+                      >
+                        LIÊN HỆ QUẢNG CÁO
+                      </a>
+                      <br />
+                      <a
+                        href="#"
+                      >
+                        THÔNG TIN KUBO CINEMA
+                      </a>
+                      <br />
+                    </div>
+                  </div>
+                </Col>,
+                <Col
+                  className="social section-footer-social  mb-0"
+                  lg="auto"
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                  xl="auto"
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      KẾT NỐI VỚI KUBO
+                    </span>
+                  </div>
+                  <div
+                    className="footer-item"
+                  >
+                    <div
+                      className="footer-social"
+                    >
+                      <i
+                        className="fab fa-facebook fa-2x"
+                      />
+                      <i
+                        className="fab fa-youtube-square fa-2x"
+                      />
+                      <i
+                        className="fab fa-twitter-square fa-2x"
+                      />
+                      <i
+                        className="fab fa-instagram fa-2x"
+                      />
+                    </div>
+                    <hr />
+                  </div>
+                </Col>,
+                <Col
+                  className="logo section-footer-social mb-0 pr-0"
+                  lg={4}
+                  tag="div"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                  xl={4}
+                >
+                  <div
+                    className="footer-title"
+                  >
+                    <span>
+                      KUBO
+                    </span>
+                  </div>
+                  <div
+                    className="logo-CHPlay"
+                  >
+                    <img
+                      alt="Lo go CH play"
+                      src="logoCHPlay.png"
+                    />
+                    <img
+                      alt="Lo go Google Play"
+                      src="logoAppstore.png"
+                    />
+                  </div>
+                </Col>,
+              ],
+              "className": "content-footer pr-0",
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="Dieu-khoan-chinh-sach"
+                    >
+                      <div
+                        className="footer-title"
+                      >
+                        <span>
+                          ĐIỀU KHOẢN CHÍNH SÁCH
+                        </span>
+                      </div>
+                      <div
+                        className="footer-item"
+                      >
+                        <a
+                          href="#"
+                        >
+                          KHÁCH HÀNG THƯỜNG XUYÊN
+                        </a>
+                        <br />
+                        <a
+                          href="#"
+                        >
+                          CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                        </a>
+                        <br />
+                      </div>
+                    </div>,
+                    <div
+                      className="doi-tac"
+                    >
+                      <div
+                        className="footer-title"
+                      >
+                        <span>
+                          LIÊN HỆ
+                        </span>
+                      </div>
+                      <div
+                        className="footer-item"
+                      >
+                        <a
+                          href="#"
+                        >
+                          LIÊN HỆ QUẢNG CÁO
+                        </a>
+                        <br />
+                        <a
+                          href="#"
+                        >
+                          THÔNG TIN KUBO CINEMA
+                        </a>
+                        <br />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "section-footer  mb-0",
+                  "lg": 5,
+                  "tag": "div",
+                  "widths": Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ],
+                  "xl": 5,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="footer-title"
+                        >
+                          <span>
+                            ĐIỀU KHOẢN CHÍNH SÁCH
+                          </span>
+                        </div>,
+                        <div
+                          className="footer-item"
+                        >
+                          <a
+                            href="#"
+                          >
+                            KHÁCH HÀNG THƯỜNG XUYÊN
+                          </a>
+                          <br />
+                          <a
+                            href="#"
+                          >
+                            CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                          </a>
+                          <br />
+                        </div>,
+                      ],
+                      "className": "Dieu-khoan-chinh-sach",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <span>
+                            ĐIỀU KHOẢN CHÍNH SÁCH
+                          </span>,
+                          "className": "footer-title",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "ĐIỀU KHOẢN CHÍNH SÁCH",
+                          },
+                          "ref": null,
+                          "rendered": "ĐIỀU KHOẢN CHÍNH SÁCH",
+                          "type": "span",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <a
+                              href="#"
+                            >
+                              KHÁCH HÀNG THƯỜNG XUYÊN
+                            </a>,
+                            <br />,
+                            <a
+                              href="#"
+                            >
+                              CHÍNH SÁCH QUYỀN RIÊNG TƯ
+                            </a>,
+                            <br />,
+                          ],
+                          "className": "footer-item",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "KHÁCH HÀNG THƯỜNG XUYÊN",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "KHÁCH HÀNG THƯỜNG XUYÊN",
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "CHÍNH SÁCH QUYỀN RIÊNG TƯ",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "CHÍNH SÁCH QUYỀN RIÊNG TƯ",
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="footer-title"
+                        >
+                          <span>
+                            LIÊN HỆ
+                          </span>
+                        </div>,
+                        <div
+                          className="footer-item"
+                        >
+                          <a
+                            href="#"
+                          >
+                            LIÊN HỆ QUẢNG CÁO
+                          </a>
+                          <br />
+                          <a
+                            href="#"
+                          >
+                            THÔNG TIN KUBO CINEMA
+                          </a>
+                          <br />
+                        </div>,
+                      ],
+                      "className": "doi-tac",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <span>
+                            LIÊN HỆ
+                          </span>,
+                          "className": "footer-title",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "LIÊN HỆ",
+                          },
+                          "ref": null,
+                          "rendered": "LIÊN HỆ",
+                          "type": "span",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <a
+                              href="#"
+                            >
+                              LIÊN HỆ QUẢNG CÁO
+                            </a>,
+                            <br />,
+                            <a
+                              href="#"
+                            >
+                              THÔNG TIN KUBO CINEMA
+                            </a>,
+                            <br />,
+                          ],
+                          "className": "footer-item",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "LIÊN HỆ QUẢNG CÁO",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "LIÊN HỆ QUẢNG CÁO",
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "THÔNG TIN KUBO CINEMA",
+                              "href": "#",
+                            },
+                            "ref": null,
+                            "rendered": "THÔNG TIN KUBO CINEMA",
+                            "type": "a",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        KẾT NỐI VỚI KUBO
+                      </span>
+                    </div>,
+                    <div
+                      className="footer-item"
+                    >
+                      <div
+                        className="footer-social"
+                      >
+                        <i
+                          className="fab fa-facebook fa-2x"
+                        />
+                        <i
+                          className="fab fa-youtube-square fa-2x"
+                        />
+                        <i
+                          className="fab fa-twitter-square fa-2x"
+                        />
+                        <i
+                          className="fab fa-instagram fa-2x"
+                        />
+                      </div>
+                      <hr />
+                    </div>,
+                  ],
+                  "className": "social section-footer-social  mb-0",
+                  "lg": "auto",
+                  "tag": "div",
+                  "widths": Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ],
+                  "xl": "auto",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        KẾT NỐI VỚI KUBO
+                      </span>,
+                      "className": "footer-title",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "KẾT NỐI VỚI KUBO",
+                      },
+                      "ref": null,
+                      "rendered": "KẾT NỐI VỚI KUBO",
+                      "type": "span",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="footer-social"
+                        >
+                          <i
+                            className="fab fa-facebook fa-2x"
+                          />
+                          <i
+                            className="fab fa-youtube-square fa-2x"
+                          />
+                          <i
+                            className="fab fa-twitter-square fa-2x"
+                          />
+                          <i
+                            className="fab fa-instagram fa-2x"
+                          />
+                        </div>,
+                        <hr />,
+                      ],
+                      "className": "footer-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="fab fa-facebook fa-2x"
+                            />,
+                            <i
+                              className="fab fa-youtube-square fa-2x"
+                            />,
+                            <i
+                              className="fab fa-twitter-square fa-2x"
+                            />,
+                            <i
+                              className="fab fa-instagram fa-2x"
+                            />,
+                          ],
+                          "className": "footer-social",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fab fa-facebook fa-2x",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fab fa-youtube-square fa-2x",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fab fa-twitter-square fa-2x",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fab fa-instagram fa-2x",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "hr",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="footer-title"
+                    >
+                      <span>
+                        KUBO
+                      </span>
+                    </div>,
+                    <div
+                      className="logo-CHPlay"
+                    >
+                      <img
+                        alt="Lo go CH play"
+                        src="logoCHPlay.png"
+                      />
+                      <img
+                        alt="Lo go Google Play"
+                        src="logoAppstore.png"
+                      />
+                    </div>,
+                  ],
+                  "className": "logo section-footer-social mb-0 pr-0",
+                  "lg": 4,
+                  "tag": "div",
+                  "widths": Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ],
+                  "xl": 4,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        KUBO
+                      </span>,
+                      "className": "footer-title",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "KUBO",
+                      },
+                      "ref": null,
+                      "rendered": "KUBO",
+                      "type": "span",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="Lo go CH play"
+                          src="logoCHPlay.png"
+                        />,
+                        <img
+                          alt="Lo go Google Play"
+                          src="logoAppstore.png"
+                        />,
+                      ],
+                      "className": "logo-CHPlay",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Lo go CH play",
+                          "src": "logoCHPlay.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Lo go Google Play",
+                          "src": "logoAppstore.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <div
+                className="footer-kubo-VN"
+              >
+                <span>
+                  ©  2019 Kubo Viet Nam, All right reserved
+                </span>
+              </div>,
+              "className": "KuboVN",
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  ©  2019 Kubo Viet Nam, All right reserved
+                </span>,
+                "className": "footer-kubo-VN",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "©  2019 Kubo Viet Nam, All right reserved",
+                },
+                "ref": null,
+                "rendered": "©  2019 Kubo Viet Nam, All right reserved",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
