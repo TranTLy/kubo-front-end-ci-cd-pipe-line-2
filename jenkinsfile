@@ -1,20 +1,26 @@
 pipeline{
     agent any
     stages{
-        stage('install'){
+        stage('Install'){
             steps{
                 bat 'npm install'
             }
         }
-        stage('test'){
+        // stage('test'){
+        //     steps{
+        //         bat 'npm test -- --no-watch'
+        //     }
+        // }
+        stage('Build'){
             steps{
-                bat 'npm test -- --no-watch'
+                bat 'npm run build'
             }
         }
-        stage('start'){
-            steps{
-                bat 'npm start'
-            }
+        stage('Deploy') {
+      // TODO. Use env.BRANCH_NAME to make sure we only deploy from master
+        //   withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
+        //    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
+             bat 'git push https://git.heroku.com/kubo-front-end-ci-cd.git master'
         }
     }
     post {
@@ -26,12 +32,14 @@ pipeline{
          success {
             mail to: 'sofiaandyalikesi@gmail.com',
                 subject: 'Demo CI/CD with Jenkins pipeline',
-                body: 'Project was built successfully.'
+                body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+            <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
         }
          always {
             mail to: 'sofiaandyalikesi@gmail.com',
                 subject: 'Demo CI/CD with Jenkins pipeline',
-                body: 'Failed to buid project'
+                body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+            <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
         }
     }
 } 
