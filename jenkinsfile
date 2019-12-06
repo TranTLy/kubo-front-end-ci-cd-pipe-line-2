@@ -1,21 +1,21 @@
 pipeline{
     agent any
     stages{
-        stage('Install'){
-            steps{
-                bat 'npm install'
-            }
-        }
-        // stage('test'){
+        // stage('Install'){
         //     steps{
-        //         bat 'npm test -- --no-watch'
+        //         bat 'npm install'
         //     }
         // }
-        stage('Build'){
-            steps{
-                bat 'npm run build'
-            }
-        }
+        // // stage('test'){
+        // //     steps{
+        // //         bat 'npm test -- --no-watch'
+        // //     }
+        // // }
+        // stage('Build'){
+        //     steps{
+        //         bat 'npm run build'
+        //     }
+        // }
         stage('Deploy') {
       // TODO. Use env.BRANCH_NAME to make sure we only deploy from master
         //   withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
