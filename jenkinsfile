@@ -1,28 +1,29 @@
 pipeline{
     agent any
     stages{
-        stage('Install'){
-            steps{
-                bat 'npm install'
-            }
-        }
-        // stage('test'){
+        // stage('Install'){
         //     steps{
-        //         bat 'npm test -- --no-watch'
+        //         bat 'npm install'
         //     }
         // }
-        stage('Build'){
-            steps{
-                bat 'npm run build'
-            }
-        }
+        // // stage('test'){
+        // //     steps{
+        // //         bat 'npm test -- --no-watch'
+        // //     }
+        // // }
+        // stage('Build'){
+        //     steps{
+        //         bat 'npm run build'
+        //     }
+        // }
         stage('Deploy') {
       // TODO. Use env.BRANCH_NAME to make sure we only deploy from master
         //   withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         //    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
           steps{
-          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'tranly237@gmail.com', passwordVariable: 'Testjenkins@1']]) {
-           bat ('git push https://${tranly237@gmail.com}:${Testjenkins@1}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
+          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login', usernameVariable: 'admin', passwordVariable: 'admin']]) {
+        //    bat ('git push https://${admin}:${admin}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
+           bat ('git push https://${admin}:${admin}@git.heroku.com/kubo-front-end-ci-cd.git HEAD:refs/heads/master')
           }
           }
             // steps {
@@ -37,17 +38,17 @@ pipeline{
         //         subject: 'Demo CI/CD with Jenkins pipeline',
         //         body: 'Project was built'
         // }
-         success {
-            mail to: 'sofiaandyalikesi@gmail.com',
-                subject: 'Demo CI/CD with Jenkins pipeline',
-                body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
-            <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
-        }
          always {
             mail to: 'sofiaandyalikesi@gmail.com',
                 subject: 'Demo CI/CD with Jenkins pipeline',
                 body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
             <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
         }
+        //  failed {
+        //     mail to: 'sofiaandyalikesi@gmail.com',
+        //         subject: 'Demo CI/CD with Jenkins pipeline',
+        //         body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+        //     <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
+        // }
     }
 } 
