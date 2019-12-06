@@ -20,13 +20,16 @@ pipeline{
       // TODO. Use env.BRANCH_NAME to make sure we only deploy from master
         //   withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         //    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
+          steps{
           withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'tranly237@gmail.com', passwordVariable: 'Testjenkins@1']]) {
-           sh('git push https://${tranly237@gmail.com}:${Testjenkins@1}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
-            steps {
-                bat 'git push https://git.heroku.com/kubo-front-end-ci-cd.git HEAD:master'
+           bat ('git push https://${tranly237@gmail.com}:${Testjenkins@1}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
+          }
+          }
+            // steps {
+            //     bat 'git push https://git.heroku.com/kubo-front-end-ci-cd.git HEAD:master'
 
-            }
-        }
+            // }
+          }
     }
     post {
         // always {
