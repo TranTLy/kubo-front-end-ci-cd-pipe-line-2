@@ -24,7 +24,7 @@ pipeline{
           withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login',
            usernameVariable: 'tranly237@gmail.com', passwordVariable: 'Testjenkins@1']]) {
                 // bat "echo 'machine git.heroku.com login $USERNAME password $PASSWORD' > ~/.netrc"
-                bat "chmod 600 ~/.netrc"
+                // bat "chmod 600 ~/.netrc"
                 bat "git push -f https://git.heroku.com/kubo-front-end-ci-cd.git HEAD:master"
 
             //   bat ('''
