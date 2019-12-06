@@ -17,4 +17,21 @@ pipeline{
             }
         }
     }
+    post {
+        // always {
+        //     mail to: 'sofiaandyalikesi@gmail.com',
+        //         subject: 'Demo CI/CD with Jenkins pipeline',
+        //         body: 'Project was built'
+        // }
+         success {
+            mail to: 'sofiaandyalikesi@gmail.com',
+                subject: 'Demo CI/CD with Jenkins pipeline',
+                body: 'Project was built successfully.'
+        }
+         always {
+            mail to: 'sofiaandyalikesi@gmail.com',
+                subject: 'Demo CI/CD with Jenkins pipeline',
+                body: 'Failed to buid project'
+        }
+    }
 } 
