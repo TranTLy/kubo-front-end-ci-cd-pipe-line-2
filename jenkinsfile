@@ -23,7 +23,7 @@ pipeline{
           steps{
           withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login', usernameVariable: 'admin', passwordVariable: 'admin']]) {
         //    bat ('git push https://${tranly237@gmail.com}:${Testjenkins@1}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
-           bat ('git push https://${tranly237@gmail.com}:${Testjenkins@1}@git.heroku.com/kubo-front-end-ci-cd.git HEAD:refs/heads/master')
+           bat ('git push https://git.heroku.com/kubo-front-end-ci-cd.git HEAD:refs/heads/master')
           }
           }
             // steps {
