@@ -21,7 +21,7 @@ pipeline{
         //   withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Heroku Git Login', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         //    sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@git.heroku.com/myapp-production.git HEAD:refs/heads/master')
           steps{
-          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login', usernameVariable: 'admin', passwordVariable: 'admin']]) {
+          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login', usernameVariable: 'tranly237@gmail.com', passwordVariable: 'Testjenkins@1']]) {
             //   bat ('''
             //     git config user.name 'TranTLy'
             //     git config user.email 'tranly237@gmail.com'
