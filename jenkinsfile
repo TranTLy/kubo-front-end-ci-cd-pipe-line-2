@@ -55,10 +55,9 @@ pipeline{
         //         body: 'Project was built'
         // }
          always {
-            mail to: 'sofiaandyalikesi@gmail.com',
+                mail to: 'sofiaandyalikesi@gmail.com',
                 subject: 'Demo CI/CD with Jenkins pipeline',
-                body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
-            <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"""
+                body: 'Project was built'
         }
         //  failed {
         //     mail to: 'sofiaandyalikesi@gmail.com',
