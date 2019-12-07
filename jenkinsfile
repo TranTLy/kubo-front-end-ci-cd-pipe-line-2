@@ -6,7 +6,7 @@ pipeline{
                 bat 'npm install'
             }
         }
-        stage('test'){
+        stage('Test'){
             steps{
                 bat 'npm test -- --no-watch'
             }
