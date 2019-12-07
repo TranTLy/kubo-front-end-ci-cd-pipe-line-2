@@ -1,16 +1,16 @@
 pipeline{
     agent any
     stages{
-        // stage('Install'){
-        //     steps{
-        //         bat 'npm install'
-        //     }
-        // }
-        // // stage('test'){
-        // //     steps{
-        // //         bat 'npm test -- --no-watch'
-        // //     }
-        // // }
+        stage('Install'){
+            steps{
+                bat 'npm install'
+            }
+        }
+        stage('test'){
+            steps{
+                bat 'npm test -- --no-watch'
+            }
+        }
         stage('Build'){
             steps{
                 bat 'npm run build'
