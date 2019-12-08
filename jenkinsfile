@@ -34,14 +34,13 @@ pipeline{
         // }
          failure {
             mail to: 'sofiaandyalikesi@gmail.com',
-               mail to: 'sofiaandyalikesi@gmail.com',
-                subject: 'Demo CI/CD with Jenkins pipeline',
-                body: 'Fail to build project.'
+            subject: 'Demo CI/CD with Jenkins pipeline',
+            body: 'Fail to build project.'
         }
         success {
             mail to: 'sofiaandyalikesi@gmail.com',
-                subject: 'Demo CI/CD with Jenkins pipeline',
-                body: 'Project was built successfully.'
+            subject: 'Demo CI/CD with Jenkins pipeline',
+            body: 'Project was built successfully.'
         }
     }
 } 
