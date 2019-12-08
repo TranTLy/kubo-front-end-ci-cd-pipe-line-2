@@ -13,7 +13,7 @@ class MenuPanel extends Component {
     }
     render() {
         const { tabs, currentTab } = this.props;
-        console.log("tabs: ", tabs, "props: ", this.props);
+        // console.log("tabs: ", tabs, "props: ", this.props);
         return (
             <div className="menu-panel-admin">
                 <div className="menu-panel-admin-left">

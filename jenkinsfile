@@ -17,14 +17,13 @@ pipeline{
             }
         }
         stage('Deploy') {
-          steps{
-          
-          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login',
-           usernameVariable: 'admin', passwordVariable: 'admin']]) {
-                bat "git push https://git.heroku.com/kubo-front-end-ci-cd.git HEAD:master"
-          }
-          }
-          }
+          steps {
+            withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'heroku-git-login',
+            usernameVariable: 'admin', passwordVariable: 'admin']]) {
+                    bat "git push https://git.heroku.com/kubo-frontend-ci-cd.git HEAD:master"
+                }
+            }
+        }
     }
     post {
         //  always {
@@ -32,7 +31,7 @@ pipeline{
         //         subject: 'Demo CI/CD with Jenkins pipeline',
         //         body: 'Project was built'
         // }
-         failure {
+        failure {
             mail to: 'sofiaandyalikesi@gmail.com',
             subject: 'Demo CI/CD with Jenkins pipeline',
             body: 'Fail to build project.'
