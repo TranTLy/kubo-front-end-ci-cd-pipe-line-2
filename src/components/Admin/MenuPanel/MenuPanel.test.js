@@ -32,7 +32,7 @@ describe("MenuPanel", () => {
         const component = shallow(<MenuPanel {...props} />);
         expect(component.find('.menu-panel-admin-left__menu--tab')).toHaveLength(props.tabs.length);
         expect(component.find('.-active').length).toEqual(1);
-        expect(component.find('.-active').text()).toEqual("ABC");
+        expect(component.find('.-active').text()).toEqual("Phim");
 
     });
 });
